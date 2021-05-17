@@ -1,9 +1,8 @@
 import Particle from '../components/Particle'
 import ReactLoading from 'react-loading'
 import Head from 'next/head'
-import 'twin.macro'
 
-function Home() {
+function ComingSoon() {
   return (
     <>
       <Head>
@@ -13,7 +12,7 @@ function Home() {
           rel="stylesheet"
         />
       </Head>
-      <div tw="absolute flex flex-col w-full h-full justify-center items-center text-6xl md:text-9xl font-bold font-lobster">
+      <div tw="absolute flex flex-col w-full h-full justify-center items-center text-8xl font-bold font-lobster">
         <p tw="text-primary">Coming Soon</p>
         <ReactLoading type="bars" color="#fed058" width={150} />
       </div>
@@ -22,4 +21,4 @@ function Home() {
   )
 }
 
-export default Home
+export default ComingSoon
