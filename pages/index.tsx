@@ -17,7 +17,9 @@ function Home() {
         <p tw="text-primary">Coming Soon</p>
         <ReactLoading type="bars" color="#fed058" width={150} />
       </div>
-      <Particle />
+      <div tw="hidden md:block">
+        <Particle />
+      </div>
     </>
   )
 }
