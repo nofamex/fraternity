@@ -13,7 +13,7 @@ function Home() {
           rel="stylesheet"
         />
         <link rel="shortcut icon" href="incereal.ico" type="image/x-icon" />
-        <title>InCereals</title>
+        <title>InCerials</title>
       </Head>
       <div tw="absolute flex flex-col w-full h-full justify-center items-center text-6xl md:text-9xl font-bold font-lobster">
         <p tw="text-primary">Coming Soon!</p>
